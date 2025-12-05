@@ -39,3 +39,6 @@ Good practice
 And honestly it just looks cool on GitHub
 
 Also I actually want to finish all 12 days  😭
+# 🎁 If you wanna try AoC too
+
+https://adventofcode.com
