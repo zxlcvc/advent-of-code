@@ -9,32 +9,33 @@ Because it’s actually a fun way to force myself to learn new languages without
 TLDR:
 
 12 days → 12 languages → 12 new brain upgrades.
+
 # 🛠 Languages I’m planning on using
 
 I’m trying to mix low-level, high-level, and whatever looks fun that day:
-
 C++
-
 C
-
 Python
-
 Rust
-
 Go
-
-JavaScript / TypeScript
-
+TypeScript
 C#
-
 Java
-
 Lua
-
 Zig
+maybe Haskell 
+maybe x86 Assembly
 
-maybe Haskell if I'm brave
+Not a strict order.  I’m just picking whatever feels right for the puzzle.
 
-maybe x86 Assembly if I feel like flexing one day
+#⭐ Why I’m Doing It
 
-Not a strict order — I’m just picking whatever feels right for the puzzle.
+Gets me used to swapping languages fast
+
+I get to show languages I know other than C++ 
+
+Good practice 
+
+And honestly it just looks cool on GitHub
+
+Also I actually want to finish all 12 days  😭
