@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    ifstream file("C:\\hardcodedpath\\input.txt");
+    ifstream file("input.txt");
     if (!file.is_open()) return 1;
 
     string s;
