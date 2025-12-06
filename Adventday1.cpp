@@ -5,24 +5,23 @@
 using namespace std;
 
 int main() {
-    // opens input file
+
     ifstream file("C:\\Users\\boing\\source\\repos\\advent 1\\x64\\Debug\\input.txt");
     if (!file.is_open()) return 1;
 
     string s;
 
-    // Part 1 vars (just final position stuff)
     int pos1 = 50;
     long long zero1 = 0;
 
-    // Part 2 vars (counting every single click)
+
     int pos2 = 50;
     long long zero2 = 0;
 
-    // Read each instruction like "L37" or "R412"
+  
     while (file >> s) {
-        char d = s[0];              // the L or R
-        long long v = stoll(s.substr(1));   // the number after it
+        char d = s[0];              
+        long long v = stoll(s.substr(1)); 
 
     
         //      PART 1
@@ -53,7 +52,7 @@ int main() {
         }
     }
 
-    // prints answers 
+   
     cout << zero1 << endl;  
     cout << zero2 << endl;  
 
