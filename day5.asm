@@ -20,8 +20,8 @@ rangeL          dq 4096 dup(0)
 rangeR          dq 4096 dup(0)
 rangeCount      dq 0
 
-freshCount      dq 0             ; Part 1 result (count of fresh available IDs)
-totalFreshIds   dq 0             ; Part 2 result (total IDs covered by ranges)
+freshCount      dq 0             ; Part 1 result 
+totalFreshIds   dq 0             ; Part 2 result 
 
 tempA           dq 0
 tempB           dq 0
@@ -59,7 +59,7 @@ CopyFilename ENDP
 ; ============================================================
 SolveDay5Part1 PROC
 
-    sub  rsp, 40               ; shadow space + align
+    sub  rsp, 40               
 
     ; copy filename into filenameBuf
     mov  rcx, rcx              ; filename already in RCX
@@ -86,7 +86,7 @@ P1_readRanges:
     mov  r8,  rbx
     call fgets
     test rax, rax
-    je   P1_readIdsStart       ; EOF -> skip to IDs section (no ranges)
+    je   P1_readIdsStart       ; EOF -> skip to IDs section 
 
     ; check for blank line (separator)
     mov  al, [lineBuf]
@@ -210,8 +210,7 @@ SolveDay5Part1 ENDP
 
 
 ; ============================================================
-; Part 2: counts how many TOTAL IDs are covered by ranges
-;      long long SolveDay5Part2(const char* filename)
+; Part 2:
 ; ============================================================
 SolveDay5Part2 PROC
 
@@ -295,7 +294,7 @@ P2_afterRanges:
     je   P2_openFail           ; just return 0
 
 ; ======================
-; SORT RANGES BY rangeL (simple bubble sort)
+; SORT RANGES BY rangeL 
 ; ======================
     xor  rcx, rcx              ; i = 0
 
@@ -411,3 +410,4 @@ P2_openFail:
 SolveDay5Part2 ENDP
 
 END
+
