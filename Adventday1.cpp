@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    ifstream file("C:\\Users\\boing\\source\\repos\\advent 1\\x64\\Debug\\input.txt");
+    ifstream file("C\\hardcodedpath\\input.txt");
     if (!file.is_open()) return 1;
 
     string s;
