@@ -107,5 +107,5 @@ for r = start_row, H do
     beams2 = next_beams
 end
 
-print(1)
-print(2)
+print(splits1)
+print(timelines)
